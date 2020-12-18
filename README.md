@@ -16,7 +16,7 @@ For any project that you have already created, identify the following files and 
 </p>
 
 <ol start="1">
-<li>Create an example application with three tasks that are created in app_main.wo tasks should share a single GPIO pin (you may use the pin connected to the built-in LED for convenience). 
+<li>Create an example application with three tasks that are created in app_main. Two tasks should share a single GPIO pin (you may use the pin connected to the built-in LED for convenience). 
         One task will turn the GPIO pin on, actively wait for 0.5 seconds, and task-delay for 1 second. 
         The other will turn the GPIO pin off, actively wait for 0.5 seconds, and task-delay for 1 second. 
         The GPIO pin should be managed using a semaphore/mutex. 
