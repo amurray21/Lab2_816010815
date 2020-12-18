@@ -10,7 +10,7 @@ For any project that you have already created, identify the following files and 
         <li> /project/sdkconfig</li>
         <li> /project/build/include/sdkconfig.h</li>
         <li> /sdk/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h</li>
-</ul>
+
 
  For each exercise, ensure that the output file, the appropriately commented source files, and the final binary files, are part of your github repository.
 
@@ -27,6 +27,9 @@ For any project that you have already created, identify the following files and 
         Vary the assigned priorities for your tasks, and look at the difference in performance. Is it what you expected?</li>
      <li> Use the IDLE "hook" function to put the processor to sleep for some time when the system is not going to be "in-use". 
         Does the use of the processor sleep affect the system performance?</li>   
-</ol>
+
+    </ol>
+
+</ul>
    
 
